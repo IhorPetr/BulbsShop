@@ -1,1 +1,4 @@
-D:\CommercialProject\BulbsShop\BulbsShop\wwwroot\file.js
+D:\CommercialProject\BulbsShop\BulbsShop\Scripts\file.js
+D:\CommercialProject\BulbsShop\BulbsShop\Scripts\file.js.map
+D:\CommercialProject\BulbsShop\BulbsShop\Scripts\file.js
+D:\CommercialProject\BulbsShop\BulbsShop\Scripts\file.js.map

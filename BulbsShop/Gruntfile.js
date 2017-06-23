@@ -6,9 +6,8 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-ts');
 
     grunt.initConfig({
@@ -45,11 +44,35 @@ module.exports = function (grunt) {
                     expand: true,
                     flatten: true,
                     src: [
-                        'Scripts/js/**/*.js'
+                        'Scripts/js/**/*.js',
+                        'node_modules/core-js/client/shim.min.js',
+                        'node_modules/zone.js/dist/zone.js',
+                        'node_modules/reflect-metadata/Reflect.js',
+                        'node_modules/systemjs/dist/system.src.js',
+                        'node_modules/typescript/lib/typescript.js'
                     ],
                     dest: 'wwwroot/js/',
                     filter: 'isFile'
-                }]
+                },
+                    {
+                        expand: true,
+                        flatten: true,
+                        src: [
+                            'node_modules/@angular/**'
+                        ],
+                        dest: 'wwwroot/js/@angular/',
+                        filter: 'isFile'
+                    },
+                    {
+                        expand: true,
+                        flatten: true,
+                        src: [
+                            'node_modules/rxjs/**'
+                        ],
+                        dest: 'wwwroot/js/rxjs/',
+                        filter: 'isFile'
+                    }
+                ]
             }
         },
         watch: {

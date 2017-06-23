@@ -1132,3 +1132,22 @@
 2017-06-24 00:42:30.9365|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
 2017-06-24 00:42:30.9935|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QG2V8PN9F" completed keep alive response. 
 2017-06-24 00:42:30.9935|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1055.7917ms 404  
+2017-06-24 01:35:28.5161|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-24 01:35:29.0392|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-24 01:35:29.3403|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QH0J9AVR7" started. 
+2017-06-24 01:35:29.4158|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QH0J9AVR6" started. 
+2017-06-24 01:35:29.8838|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:53617/  0 
+2017-06-24 01:35:29.8838|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/   
+2017-06-24 01:35:30.4568|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QH0J9AVR7" completed keep alive response. 
+2017-06-24 01:35:30.4618|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /index.html was not modified 
+2017-06-24 01:35:30.5083|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 692.59ms 200  
+2017-06-24 01:35:30.5313|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /index.html 
+2017-06-24 01:35:30.5543|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QH0J9AVR6" completed keep alive response. 
+2017-06-24 01:35:30.6008|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 779.529ms 304 text/html 
+2017-06-24 01:35:30.6628|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/favicon.ico   
+2017-06-24 01:35:30.6628|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /favicon.ico does not match an existing file 
+2017-06-24 01:35:30.6788|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-24 01:35:31.2608|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 01:35:31.3948|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-24 01:35:31.4478|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QH0J9AVR7" completed keep alive response. 
+2017-06-24 01:35:31.4908|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 805.0118ms 404  

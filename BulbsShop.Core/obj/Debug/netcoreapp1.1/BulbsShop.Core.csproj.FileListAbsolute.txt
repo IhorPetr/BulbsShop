@@ -1,0 +1,7 @@
+D:\CommercialProject\BulbsShop\BulbsShop.Core\bin\Debug\netcoreapp1.1\BulbsShop.Core.deps.json
+D:\CommercialProject\BulbsShop\BulbsShop.Core\bin\Debug\netcoreapp1.1\BulbsShop.Core.dll
+D:\CommercialProject\BulbsShop\BulbsShop.Core\bin\Debug\netcoreapp1.1\BulbsShop.Core.pdb
+D:\CommercialProject\BulbsShop\BulbsShop.Core\obj\Debug\netcoreapp1.1\BulbsShop.Core.csprojResolveAssemblyReference.cache
+D:\CommercialProject\BulbsShop\BulbsShop.Core\obj\Debug\netcoreapp1.1\BulbsShop.Core.AssemblyInfo.cs
+D:\CommercialProject\BulbsShop\BulbsShop.Core\obj\Debug\netcoreapp1.1\BulbsShop.Core.dll
+D:\CommercialProject\BulbsShop\BulbsShop.Core\obj\Debug\netcoreapp1.1\BulbsShop.Core.pdb
