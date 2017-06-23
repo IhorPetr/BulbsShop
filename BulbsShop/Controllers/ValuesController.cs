@@ -19,12 +19,16 @@ namespace BulbsShop.Controllers
         {
             _logger = logger;
         }
+        /// <summary>
+        /// This First test Controll
+        /// </summary>
+        /// <returns></returns>
         // GET: api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
             _logger.LogInformation("Index page says hello");
-            return new string[] { "value1", "value2" };
+            return new JsonResult(new []{ "value1", "value2" });
         }
 
         // GET api/values/5

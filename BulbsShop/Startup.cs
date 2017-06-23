@@ -12,6 +12,8 @@ using NLog.Extensions.Logging;
 using NLog.Web;
 using NLog;
 using System.IO;
+using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.Extensions.PlatformAbstractions;
 
 namespace BulbsShop
 {
@@ -27,8 +29,28 @@ namespace BulbsShop
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            //services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddMvc();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc(
+                    "v1",
+                 new Info
+                 {
+                  Title = "BulbsShop API - V1",
+                  Version = "v1",
+                  Description = "API descriptor for Front-end developers",
+                  TermsOfService = "Knock yourself out",
+                  Contact = new Contact
+                  {
+                    Name = "IhorPetr",
+                    Email = "vep2014@ukr.net",
+                    Url= "https://github.com/IhorPetr"
+                  },
+                  });
+                var filePath = Path.Combine(PlatformServices.Default.Application.ApplicationBasePath, "BulbsShop.xml");
+                c.IncludeXmlComments(filePath);
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,6 +60,11 @@ namespace BulbsShop
             app.AddNLogWeb();
             LogManager.Configuration.Variables["configDir"] = Path.Combine(env.ContentRootPath,"logs");
             app.UseMvc();
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
         }
     }
 }

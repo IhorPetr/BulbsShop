@@ -1,2 +1,3 @@
 2017-06-23 19:37:25.4355|0|BulbsShop.Controllers.ValuesController|INFO|  Index page says hello |url: http://localhost/api/values|action: Get
 2017-06-23 19:38:18.7738|0|BulbsShop.Controllers.ValuesController|INFO|  Index page says hello |url: http://localhost/api/values|action: Get
+2017-06-23 19:40:53.7597|0|BulbsShop.Controllers.ValuesController|INFO|  Index page says hello |url: http://localhost/api/values|action: Get

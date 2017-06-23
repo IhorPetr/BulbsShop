@@ -110,3 +110,696 @@
 2017-06-23 19:38:26.2591|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDK" sending FIN. 
 2017-06-23 19:38:26.2866|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDK" sent FIN with status "0". 
 2017-06-23 19:38:26.3111|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDK" stopped. 
+2017-06-23 19:40:47.0503|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-23 19:40:47.3554|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-23 19:40:47.4314|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASQ" started. 
+2017-06-23 19:40:47.4664|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASQ" received FIN. 
+2017-06-23 19:40:47.5124|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASQ" disconnecting. 
+2017-06-23 19:40:47.5369|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASQ" sending FIN. 
+2017-06-23 19:40:47.5559|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASQ" sent FIN with status "0". 
+2017-06-23 19:40:47.5559|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASQ" stopped. 
+2017-06-23 19:40:49.4066|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASR" started. 
+2017-06-23 19:40:49.8376|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/   
+2017-06-23 19:40:50.5586|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 19:40:50.7792|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASR" completed keep alive response. 
+2017-06-23 19:40:50.8112|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1125.7914ms 404  
+2017-06-23 19:40:50.8642|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/favicon.ico   
+2017-06-23 19:40:50.8752|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 19:40:50.8842|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASR" completed keep alive response. 
+2017-06-23 19:40:50.8842|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 25.1145ms 404  
+2017-06-23 19:40:52.8086|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASR" received FIN. 
+2017-06-23 19:40:52.8086|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASR" disconnecting. 
+2017-06-23 19:40:52.8221|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASR" sending FIN. 
+2017-06-23 19:40:52.8221|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASR" sent FIN with status "0". 
+2017-06-23 19:40:52.8221|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASR" stopped. 
+2017-06-23 19:40:53.1906|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASS" started. 
+2017-06-23 19:40:53.2016|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/api/values   
+2017-06-23 19:40:53.2016|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHAST" started. 
+2017-06-23 19:40:53.2146|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASU" started. 
+2017-06-23 19:40:53.2517|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Values'. 
+2017-06-23 19:40:53.3327|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'BulbsShop.Controllers.ValuesController.Post (BulbsShop)' with id 'b78e3683-cb31-4f72-bc67-688491e97ca8' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-06-23 19:40:53.5017|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action BulbsShop.Controllers.ValuesController.Get (BulbsShop) 
+2017-06-23 19:40:53.7477|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method BulbsShop.Controllers.ValuesController.Get (BulbsShop) with arguments ((null)) - ModelState is Valid 
+2017-06-23 19:40:53.7597|0|BulbsShop.Controllers.ValuesController|INFO|Index page says hello 
+2017-06-23 19:40:53.8042|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method BulbsShop.Controllers.ValuesController.Get (BulbsShop), returned result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2017-06-23 19:40:53.8662|4|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2017-06-23 19:40:53.8662|2|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response. 
+2017-06-23 19:40:53.8867|1|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-06-23 19:40:54.3893|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action BulbsShop.Controllers.ValuesController.Get (BulbsShop) in 750.9406ms 
+2017-06-23 19:40:54.4333|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASS" completed keep alive response. 
+2017-06-23 19:40:54.4578|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1248.7219ms 200 application/json; charset=utf-8 
+2017-06-23 19:40:56.2775|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASU" received FIN. 
+2017-06-23 19:40:56.3310|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHAST" received FIN. 
+2017-06-23 19:40:56.3755|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASU" disconnecting. 
+2017-06-23 19:40:56.3825|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHAST" disconnecting. 
+2017-06-23 19:40:56.3825|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASS" received FIN. 
+2017-06-23 19:40:56.3825|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASU" sending FIN. 
+2017-06-23 19:40:56.4175|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHAST" sending FIN. 
+2017-06-23 19:40:56.4175|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASS" disconnecting. 
+2017-06-23 19:40:56.4515|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHAST" sent FIN with status "0". 
+2017-06-23 19:40:56.4175|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASU" sent FIN with status "0". 
+2017-06-23 19:40:56.4515|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHAST" stopped. 
+2017-06-23 19:40:56.4845|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASU" stopped. 
+2017-06-23 19:40:56.4905|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASS" sending FIN. 
+2017-06-23 19:40:56.4905|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASS" sent FIN with status "0". 
+2017-06-23 19:40:56.5085|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAQCQHASS" stopped. 
+2017-06-23 21:22:24.7236|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-23 21:22:25.2527|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-23 21:22:25.3737|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S97" started. 
+2017-06-23 21:22:25.4417|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S97" received FIN. 
+2017-06-23 21:22:25.4507|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S98" started. 
+2017-06-23 21:22:25.4757|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S98" received FIN. 
+2017-06-23 21:22:25.5317|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S97" disconnecting. 
+2017-06-23 21:22:25.5377|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S98" disconnecting. 
+2017-06-23 21:22:25.5627|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S97" sending FIN. 
+2017-06-23 21:22:25.5707|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S98" sending FIN. 
+2017-06-23 21:22:25.5897|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S98" sent FIN with status "0". 
+2017-06-23 21:22:25.6147|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S98" stopped. 
+2017-06-23 21:22:25.6402|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S97" sent FIN with status "0". 
+2017-06-23 21:22:25.6467|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S97" stopped. 
+2017-06-23 21:22:29.0251|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S99" started. 
+2017-06-23 21:22:29.2901|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/   
+2017-06-23 21:22:31.0587|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default_route' and template '{controller}/{id?}'. 
+2017-06-23 21:22:31.1347|3|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-06-23 21:22:31.1627|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 21:22:31.2987|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S99" completed keep alive response. 
+2017-06-23 21:22:31.3482|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2119.3666ms 404  
+2017-06-23 21:22:31.7719|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/favicon.ico   
+2017-06-23 21:22:31.7914|1|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default_route' and template '{controller}/{id?}'. 
+2017-06-23 21:22:31.7914|3|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-06-23 21:22:31.8099|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 21:22:31.8204|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S99" completed keep alive response. 
+2017-06-23 21:22:31.8599|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 148.7888ms 404  
+2017-06-23 21:22:35.9210|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S99" received FIN. 
+2017-06-23 21:22:35.9210|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S99" disconnecting. 
+2017-06-23 21:22:35.9290|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S99" sending FIN. 
+2017-06-23 21:22:35.9290|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S99" sent FIN with status "0". 
+2017-06-23 21:22:35.9290|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QCJ650S99" stopped. 
+2017-06-23 22:07:02.7975|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-23 22:07:03.3495|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-23 22:07:03.7966|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5C" started. 
+2017-06-23 22:07:03.9246|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5C" received FIN. 
+2017-06-23 22:07:03.9566|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5C" disconnecting. 
+2017-06-23 22:07:03.9726|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5C" sending FIN. 
+2017-06-23 22:07:04.0216|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5C" sent FIN with status "0". 
+2017-06-23 22:07:04.0406|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5C" stopped. 
+2017-06-23 22:07:06.4492|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5D" started. 
+2017-06-23 22:07:06.7207|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/   
+2017-06-23 22:07:07.7542|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:07:07.9007|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5D" completed keep alive response. 
+2017-06-23 22:07:07.9672|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1300.9978ms 404  
+2017-06-23 22:07:08.0932|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/favicon.ico   
+2017-06-23 22:07:08.1007|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:07:08.1007|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5D" completed keep alive response. 
+2017-06-23 22:07:08.1007|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 19.5502ms 404  
+2017-06-23 22:07:09.4897|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5D" received FIN. 
+2017-06-23 22:07:09.4957|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5D" disconnecting. 
+2017-06-23 22:07:09.4957|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5D" sending FIN. 
+2017-06-23 22:07:09.4957|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5D" sent FIN with status "0". 
+2017-06-23 22:07:09.5112|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5D" stopped. 
+2017-06-23 22:07:42.4058|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5E" started. 
+2017-06-23 22:07:42.4188|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5F" started. 
+2017-06-23 22:07:42.4188|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDC4CHS5G" started. 
+2017-06-23 22:07:42.4403|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/System/Logs/Errors   
+2017-06-23 22:07:42.4868|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'System/Logs/Errors'. 
+2017-06-23 22:07:42.7198|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action BulbsShop.Controllers.SystemController.GetErrors (BulbsShop) 
+2017-06-23 22:07:42.8218|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method BulbsShop.Controllers.SystemController.GetErrors (BulbsShop) with arguments ((null)) - ModelState is Valid 
+2017-06-23 22:09:16.0686|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-23 22:09:16.4197|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QG" started. 
+2017-06-23 22:09:16.4577|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QG" received FIN. 
+2017-06-23 22:09:16.5002|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-23 22:09:16.5397|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QG" disconnecting. 
+2017-06-23 22:09:16.5622|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QG" sending FIN. 
+2017-06-23 22:09:16.6057|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QG" sent FIN with status "0". 
+2017-06-23 22:09:16.6227|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QG" stopped. 
+2017-06-23 22:09:18.4322|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QH" started. 
+2017-06-23 22:09:18.6473|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/   
+2017-06-23 22:09:19.3485|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:09:19.5000|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QH" completed keep alive response. 
+2017-06-23 22:09:19.5675|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 978.8741ms 404  
+2017-06-23 22:09:19.6665|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/favicon.ico   
+2017-06-23 22:09:19.6665|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:09:19.6830|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QH" completed keep alive response. 
+2017-06-23 22:09:19.6830|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 38.7888ms 404  
+2017-06-23 22:09:21.7048|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QH" received FIN. 
+2017-06-23 22:09:21.7098|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QH" disconnecting. 
+2017-06-23 22:09:21.7098|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QH" sending FIN. 
+2017-06-23 22:09:21.7098|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QH" sent FIN with status "0". 
+2017-06-23 22:09:21.7253|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QH" stopped. 
+2017-06-23 22:09:32.9514|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QI" started. 
+2017-06-23 22:09:32.9664|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QJ" started. 
+2017-06-23 22:09:32.9664|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDDBT39QK" started. 
+2017-06-23 22:09:32.9954|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/System/Logs/Errors   
+2017-06-23 22:09:33.0349|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'System/Logs/Errors'. 
+2017-06-23 22:09:33.2489|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action BulbsShop.Controllers.SystemController.GetErrors (BulbsShop) 
+2017-06-23 22:09:33.3450|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method BulbsShop.Controllers.SystemController.GetErrors (BulbsShop) with arguments ((null)) - ModelState is Valid 
+2017-06-23 22:10:24.6589|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-23 22:10:24.9894|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-23 22:10:25.1049|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJI" started. 
+2017-06-23 22:10:25.1749|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJI" received FIN. 
+2017-06-23 22:10:25.2185|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJI" disconnecting. 
+2017-06-23 22:10:25.2395|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJI" sending FIN. 
+2017-06-23 22:10:25.2555|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJI" sent FIN with status "0". 
+2017-06-23 22:10:25.2680|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJI" stopped. 
+2017-06-23 22:10:27.0476|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJJ" started. 
+2017-06-23 22:10:27.3486|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/   
+2017-06-23 22:10:27.8947|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:10:27.9847|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJJ" completed keep alive response. 
+2017-06-23 22:10:28.0317|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 706.0821ms 404  
+2017-06-23 22:10:28.0867|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/favicon.ico   
+2017-06-23 22:10:28.1007|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:10:28.1597|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJJ" completed keep alive response. 
+2017-06-23 22:10:28.2377|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 103.2973ms 404  
+2017-06-23 22:10:30.4451|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJJ" received FIN. 
+2017-06-23 22:10:30.4451|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJJ" disconnecting. 
+2017-06-23 22:10:30.4451|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJJ" sending FIN. 
+2017-06-23 22:10:30.4646|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJJ" sent FIN with status "0". 
+2017-06-23 22:10:30.4646|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJJ" stopped. 
+2017-06-23 22:10:46.1247|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJK" started. 
+2017-06-23 22:10:46.1247|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJL" started. 
+2017-06-23 22:10:46.1417|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJM" started. 
+2017-06-23 22:10:46.1527|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/System/Logs/Errors   
+2017-06-23 22:10:46.1858|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'System/Logs/Errors'. 
+2017-06-23 22:10:46.4748|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action BulbsShop.Controllers.SystemController.GetErrors (BulbsShop) 
+2017-06-23 22:10:46.6238|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method BulbsShop.Controllers.SystemController.GetErrors (BulbsShop) with arguments ((null)) - ModelState is Valid 
+2017-06-23 22:10:46.6348|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method BulbsShop.Controllers.SystemController.GetErrors (BulbsShop), returned result Microsoft.AspNetCore.Mvc.ContentResult. 
+2017-06-23 22:10:46.7078|1|Microsoft.AspNetCore.Mvc.Internal.ContentResultExecutor|INFO|Executing ContentResult with HTTP Response ContentType of text/plain 
+2017-06-23 22:10:46.9563|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action BulbsShop.Controllers.SystemController.GetErrors (BulbsShop) in 347.5177ms 
+2017-06-23 22:10:47.0148|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJM" completed keep alive response. 
+2017-06-23 22:10:47.0228|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 873.502ms 200 text/plain 
+2017-06-23 22:10:50.4698|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJK" received FIN. 
+2017-06-23 22:10:50.4698|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJL" received FIN. 
+2017-06-23 22:10:50.5168|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJK" disconnecting. 
+2017-06-23 22:10:50.5598|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJL" disconnecting. 
+2017-06-23 22:10:50.5348|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJM" received FIN. 
+2017-06-23 22:10:50.5763|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJK" sending FIN. 
+2017-06-23 22:10:50.5918|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJM" disconnecting. 
+2017-06-23 22:10:50.6048|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJK" sent FIN with status "0". 
+2017-06-23 22:10:50.6183|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJL" sending FIN. 
+2017-06-23 22:10:50.6183|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJK" stopped. 
+2017-06-23 22:10:50.6363|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJM" sending FIN. 
+2017-06-23 22:10:50.6503|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJM" sent FIN with status "0". 
+2017-06-23 22:10:50.6503|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJM" stopped. 
+2017-06-23 22:10:50.6653|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJL" sent FIN with status "0". 
+2017-06-23 22:10:50.6653|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDE0CAFJL" stopped. 
+2017-06-23 22:41:40.7891|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-23 22:41:41.1686|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-23 22:41:41.5762|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O6" started. 
+2017-06-23 22:41:41.6142|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O6" received FIN. 
+2017-06-23 22:41:41.6552|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O6" disconnecting. 
+2017-06-23 22:41:41.6732|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O6" sending FIN. 
+2017-06-23 22:41:41.6932|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O6" sent FIN with status "0". 
+2017-06-23 22:41:41.6932|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O6" stopped. 
+2017-06-23 22:41:44.1604|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O7" started. 
+2017-06-23 22:41:44.6954|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/   
+2017-06-23 22:41:45.7109|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:41:45.7749|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-23 22:41:45.8849|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O7" completed keep alive response. 
+2017-06-23 22:41:45.9229|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1332.4546ms 404  
+2017-06-23 22:41:46.0629|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/favicon.ico   
+2017-06-23 22:41:46.0694|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:41:46.0694|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-23 22:41:46.0694|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O7" completed keep alive response. 
+2017-06-23 22:41:46.0894|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 27.6901ms 404  
+2017-06-23 22:41:46.9925|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O7" received FIN. 
+2017-06-23 22:41:46.9925|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O7" disconnecting. 
+2017-06-23 22:41:46.9925|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O7" sending FIN. 
+2017-06-23 22:41:47.0065|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O7" sent FIN with status "0". 
+2017-06-23 22:41:47.0065|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O7" stopped. 
+2017-06-23 22:42:09.8210|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O8" started. 
+2017-06-23 22:42:09.8370|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618//swagger/v1/swagger.json   
+2017-06-23 22:42:09.8370|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O9" started. 
+2017-06-23 22:42:09.8530|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OA" started. 
+2017-06-23 22:42:09.8530|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:09.8655|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-23 22:42:09.8655|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O8" completed keep alive response. 
+2017-06-23 22:42:09.9010|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 72.2646ms 404  
+2017-06-23 22:42:15.2240|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/v1/swagger.json   
+2017-06-23 22:42:15.2310|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:15.8520|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O8" completed keep alive response. 
+2017-06-23 22:42:15.8520|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 635.9403ms 200 application/json 
+2017-06-23 22:42:43.5509|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OA" received FIN. 
+2017-06-23 22:42:43.5839|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OA" disconnecting. 
+2017-06-23 22:42:43.5769|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O9" received FIN. 
+2017-06-23 22:42:43.5839|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OA" sending FIN. 
+2017-06-23 22:42:43.6099|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O9" disconnecting. 
+2017-06-23 22:42:43.6309|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OA" sent FIN with status "0". 
+2017-06-23 22:42:43.6709|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger   
+2017-06-23 22:42:43.7069|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:43.7369|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O9" sending FIN. 
+2017-06-23 22:42:43.7594|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OA" stopped. 
+2017-06-23 22:42:43.7724|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O8" completed keep alive response. 
+2017-06-23 22:42:43.7914|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O9" sent FIN with status "0". 
+2017-06-23 22:42:43.8029|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 154.3687ms 301  
+2017-06-23 22:42:43.8029|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O9" stopped. 
+2017-06-23 22:42:43.8284|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/   
+2017-06-23 22:42:43.8284|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:43.8774|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/index.html'. Physical path: 'N/A' 
+2017-06-23 22:42:43.9784|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" started. 
+2017-06-23 22:42:43.9784|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" started. 
+2017-06-23 22:42:44.0189|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O8" completed keep alive response. 
+2017-06-23 22:42:44.0479|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/css/reset.css   
+2017-06-23 22:42:44.0579|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OD" started. 
+2017-06-23 22:42:44.0579|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 226.479ms 200 text/html 
+2017-06-23 22:42:44.0709|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OE" started. 
+2017-06-23 22:42:44.0709|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.0869|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OF" started. 
+2017-06-23 22:42:44.0869|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/jquery-1.8.0.min.js   
+2017-06-23 22:42:44.0869|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/css/screen.css   
+2017-06-23 22:42:44.1119|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.1509|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/css/typography.css   
+2017-06-23 22:42:44.1509|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jquery-1.8.0.min.js'. Physical path: 'N/A' 
+2017-06-23 22:42:44.1629|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.1629|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/reset.css'. Physical path: 'N/A' 
+2017-06-23 22:42:44.1629|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/screen.css'. Physical path: 'N/A' 
+2017-06-23 22:42:44.1819|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.2009|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" completed keep alive response. 
+2017-06-23 22:42:44.2009|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 183.8731ms 200 text/css 
+2017-06-23 22:42:44.2139|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/typography.css'. Physical path: 'N/A' 
+2017-06-23 22:42:44.2269|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/jquery.wiggle.min.js   
+2017-06-23 22:42:44.2139|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" completed keep alive response. 
+2017-06-23 22:42:44.2434|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.2434|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 169.3264ms 200 text/css 
+2017-06-23 22:42:44.2434|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jquery.wiggle.min.js'. Physical path: 'N/A' 
+2017-06-23 22:42:44.2269|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/object-assign-pollyfill.js   
+2017-06-23 22:42:44.2649|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/jquery.ba-bbq.min.js   
+2017-06-23 22:42:44.2269|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O8" completed keep alive response. 
+2017-06-23 22:42:44.2719|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.2719|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.2884|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A' 
+2017-06-23 22:42:44.3069|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jquery.ba-bbq.min.js'. Physical path: 'N/A' 
+2017-06-23 22:42:44.2884|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 174.0056ms 200 text/css 
+2017-06-23 22:42:44.2719|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" completed keep alive response. 
+2017-06-23 22:42:44.3194|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OE" completed keep alive response. 
+2017-06-23 22:42:44.3354|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" completed keep alive response. 
+2017-06-23 22:42:44.3354|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 108.6896ms 200 application/javascript 
+2017-06-23 22:42:44.3354|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 114.1689ms 200 application/javascript 
+2017-06-23 22:42:44.3609|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 87.7ms 200 application/javascript 
+2017-06-23 22:42:44.3669|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/handlebars-4.0.5.js   
+2017-06-23 22:42:44.3669|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/lodash.min.js   
+2017-06-23 22:42:44.3879|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.3994|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/backbone-min.js   
+2017-06-23 22:42:44.3994|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/swagger-ui.min.js   
+2017-06-23 22:42:44.3994|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.4124|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.4380|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/handlebars-4.0.5.js'. Physical path: 'N/A' 
+2017-06-23 22:42:44.4480|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.4480|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/lodash.min.js'. Physical path: 'N/A' 
+2017-06-23 22:42:44.4770|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/swagger-ui.min.js'. Physical path: 'N/A' 
+2017-06-23 22:42:44.4770|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" completed keep alive response. 
+2017-06-23 22:42:44.4970|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OD" completed keep alive response. 
+2017-06-23 22:42:44.4380|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/backbone-min.js'. Physical path: 'N/A' 
+2017-06-23 22:42:44.4970|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 125.0553ms 200 application/javascript 
+2017-06-23 22:42:44.4770|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/jquery.slideto.min.js   
+2017-06-23 22:42:44.5135|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OE" completed keep alive response. 
+2017-06-23 22:42:44.5240|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 423.2341ms 200 application/javascript 
+2017-06-23 22:42:44.5380|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 135.6191ms 200 application/javascript 
+2017-06-23 22:42:44.5240|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.5630|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/highlight.9.1.0.pack_extended.js   
+2017-06-23 22:42:44.6040|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.6040|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/highlight.9.1.0.pack.js   
+2017-06-23 22:42:44.6165|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A' 
+2017-06-23 22:42:44.6165|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.6165|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/jsoneditor.min.js   
+2017-06-23 22:42:44.6165|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OD" completed keep alive response. 
+2017-06-23 22:42:44.6350|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/highlight.9.1.0.pack.js'. Physical path: 'N/A' 
+2017-06-23 22:42:44.6350|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.6465|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A' 
+2017-06-23 22:42:44.6350|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 87.6319ms 200 application/javascript 
+2017-06-23 22:42:44.6465|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jsoneditor.min.js'. Physical path: 'N/A' 
+2017-06-23 22:42:44.6980|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OF" completed keep alive response. 
+2017-06-23 22:42:44.6790|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" completed keep alive response. 
+2017-06-23 22:42:44.7310|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/marked.js   
+2017-06-23 22:42:44.7110|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O8" completed keep alive response. 
+2017-06-23 22:42:44.7310|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 211.7533ms 200 application/javascript 
+2017-06-23 22:42:44.7560|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 408.4082ms 200 application/javascript 
+2017-06-23 22:42:44.7880|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:44.8340|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 251.0783ms 200 application/javascript 
+2017-06-23 22:42:44.8600|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OE" completed keep alive response. 
+2017-06-23 22:42:44.8340|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/marked.js'. Physical path: 'N/A' 
+2017-06-23 22:42:44.8950|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 272.9948ms 200 application/javascript 
+2017-06-23 22:42:44.9610|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/swagger-oauth.js   
+2017-06-23 22:42:45.0070|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OD" completed keep alive response. 
+2017-06-23 22:42:45.0330|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:45.0460|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" completed keep alive response. 
+2017-06-23 22:42:45.0550|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/swagger-oauth.js'. Physical path: 'N/A' 
+2017-06-23 22:42:45.0550|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 653.1764ms 200 application/javascript 
+2017-06-23 22:42:45.0460|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 295.6359ms 200 application/javascript 
+2017-06-23 22:42:45.0815|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/logo_small.png   
+2017-06-23 22:42:45.0550|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" completed keep alive response. 
+2017-06-23 22:42:45.0895|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:45.0895|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 220.578ms 200 application/javascript 
+2017-06-23 22:42:45.1705|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/logo_small.png'. Physical path: 'N/A' 
+2017-06-23 22:42:45.1940|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" completed keep alive response. 
+2017-06-23 22:42:45.1940|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 120.8765ms 200 image/png 
+2017-06-23 22:42:45.2200|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/css/print.css   
+2017-06-23 22:42:45.2250|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:45.2250|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/print.css'. Physical path: 'N/A' 
+2017-06-23 22:42:45.2515|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" completed keep alive response. 
+2017-06-23 22:42:45.2560|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 35.8334ms 200 text/css 
+2017-06-23 22:42:45.3380|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/v1/swagger.json   
+2017-06-23 22:42:45.3380|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:45.3590|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" completed keep alive response. 
+2017-06-23 22:42:45.3690|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 27.2176ms 200 application/json 
+2017-06-23 22:42:45.6056|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:42:45.6611|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:45.7366|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/favicon-16x16.png'. Physical path: 'N/A' 
+2017-06-23 22:42:45.7706|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" completed keep alive response. 
+2017-06-23 22:42:45.7786|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 184.261ms 200 image/png 
+2017-06-23 22:42:45.8031|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-32x32.png   
+2017-06-23 22:42:45.8241|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:45.8381|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/favicon-32x32.png'. Physical path: 'N/A' 
+2017-06-23 22:42:45.8501|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" completed keep alive response. 
+2017-06-23 22:42:45.8501|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 63.7243ms 200 image/png 
+2017-06-23 22:42:48.8997|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/throbber.gif   
+2017-06-23 22:42:48.9127|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:48.9712|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:42:48.9868|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/throbber.gif'. Physical path: 'N/A' 
+2017-06-23 22:42:49.0128|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:49.0738|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" completed keep alive response. 
+2017-06-23 22:42:49.1678|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:42:49.2133|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 274.5236ms 200 image/gif 
+2017-06-23 22:42:49.3018|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:42:49.3093|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" completed keep alive response. 
+2017-06-23 22:42:49.3093|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 379.0591ms 304 image/png 
+2017-06-23 22:42:49.7814|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:42:49.7814|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:49.7954|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:42:49.7954|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:42:49.8104|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" completed keep alive response. 
+2017-06-23 22:42:49.8104|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 36.4348ms 304 image/png 
+2017-06-23 22:42:51.6478|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:42:51.6478|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:51.6478|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:42:51.6733|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:42:51.7548|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" completed keep alive response. 
+2017-06-23 22:42:51.8473|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 122.2608ms 304 image/png 
+2017-06-23 22:42:52.5687|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:42:52.5687|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:52.5907|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:42:52.5907|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:42:52.6047|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" completed keep alive response. 
+2017-06-23 22:42:52.6047|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 44.2447ms 304 image/png 
+2017-06-23 22:42:53.5039|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:42:53.5119|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:53.5249|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:42:53.5249|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:42:53.5249|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" completed keep alive response. 
+2017-06-23 22:42:53.5419|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 47.4653ms 304 image/png 
+2017-06-23 22:42:54.3148|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:42:54.3288|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:42:54.3778|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:42:54.4223|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:42:54.4794|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" completed keep alive response. 
+2017-06-23 22:42:54.5654|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 191.0996ms 304 image/png 
+2017-06-23 22:43:24.4013|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:43:24.4013|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:43:24.4153|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:43:24.4353|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:43:24.4543|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" completed keep alive response. 
+2017-06-23 22:43:24.4858|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 71.0564ms 304 image/png 
+2017-06-23 22:43:25.0820|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:43:25.0900|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:43:25.1355|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:43:25.1465|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:43:25.1625|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" completed keep alive response. 
+2017-06-23 22:43:25.1625|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 87.7399ms 304 image/png 
+2017-06-23 22:43:27.0092|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OF" received FIN. 
+2017-06-23 22:43:27.0092|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O8" received FIN. 
+2017-06-23 22:43:27.0222|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OF" disconnecting. 
+2017-06-23 22:43:27.0222|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O8" disconnecting. 
+2017-06-23 22:43:27.0402|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OE" received FIN. 
+2017-06-23 22:43:27.0222|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OD" received FIN. 
+2017-06-23 22:43:27.0702|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" received FIN. 
+2017-06-23 22:43:27.0702|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OD" disconnecting. 
+2017-06-23 22:43:27.0872|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" disconnecting. 
+2017-06-23 22:43:27.0872|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OF" sending FIN. 
+2017-06-23 22:43:27.0872|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OE" disconnecting. 
+2017-06-23 22:43:27.1042|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" received FIN. 
+2017-06-23 22:43:27.1042|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" sending FIN. 
+2017-06-23 22:43:27.1042|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O8" sending FIN. 
+2017-06-23 22:43:27.1232|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OE" sending FIN. 
+2017-06-23 22:43:27.1482|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" disconnecting. 
+2017-06-23 22:43:27.1482|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OE" sent FIN with status "0". 
+2017-06-23 22:43:27.1682|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OD" sending FIN. 
+2017-06-23 22:43:27.1682|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OE" stopped. 
+2017-06-23 22:43:27.1782|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" sending FIN. 
+2017-06-23 22:43:27.1782|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" sent FIN with status "0". 
+2017-06-23 22:43:27.2022|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" sent FIN with status "0". 
+2017-06-23 22:43:27.2182|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OB" stopped. 
+2017-06-23 22:43:27.2182|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OC" stopped. 
+2017-06-23 22:43:27.2282|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OF" sent FIN with status "0". 
+2017-06-23 22:43:27.2282|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OD" sent FIN with status "0". 
+2017-06-23 22:43:27.2282|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OF" stopped. 
+2017-06-23 22:43:27.2472|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OD" stopped. 
+2017-06-23 22:43:27.2472|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O8" sent FIN with status "0". 
+2017-06-23 22:43:27.2602|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4O8" stopped. 
+2017-06-23 22:45:26.8218|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OG" started. 
+2017-06-23 22:45:26.8568|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:45:26.8758|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:45:26.8868|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:45:26.8868|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:45:26.9058|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OG" completed keep alive response. 
+2017-06-23 22:45:26.9058|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 74.4519ms 304 image/png 
+2017-06-23 22:45:27.0358|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OG" received FIN. 
+2017-06-23 22:45:27.0958|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OG" disconnecting. 
+2017-06-23 22:45:27.1108|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OG" sending FIN. 
+2017-06-23 22:45:27.1208|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OG" sent FIN with status "0". 
+2017-06-23 22:45:27.1483|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OG" stopped. 
+2017-06-23 22:45:29.2793|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OH" started. 
+2017-06-23 22:45:29.2913|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:45:29.2913|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:45:29.3033|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:45:29.3033|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:45:29.3353|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OH" completed keep alive response. 
+2017-06-23 22:45:29.3783|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 60.131ms 304 image/png 
+2017-06-23 22:45:31.0196|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:45:31.0236|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:45:31.0236|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:45:31.0236|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:45:31.0461|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OH" completed keep alive response. 
+2017-06-23 22:45:31.0686|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 36.8466ms 304 image/png 
+2017-06-23 22:45:34.4229|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:45:34.4309|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:45:34.4309|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:45:34.5100|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:45:34.5350|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OH" completed keep alive response. 
+2017-06-23 22:45:34.5470|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 131.7892ms 304 image/png 
+2017-06-23 22:45:37.0320|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OH" received FIN. 
+2017-06-23 22:45:37.0320|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OH" disconnecting. 
+2017-06-23 22:45:37.0400|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OH" sending FIN. 
+2017-06-23 22:45:37.0400|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OH" sent FIN with status "0". 
+2017-06-23 22:45:37.0400|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QDVFJN4OH" stopped. 
+2017-06-23 22:48:30.5246|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-23 22:48:30.8877|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-23 22:48:31.2838|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4855" started. 
+2017-06-23 22:48:31.3218|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4855" received FIN. 
+2017-06-23 22:48:31.3698|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4855" disconnecting. 
+2017-06-23 22:48:31.3933|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4855" sending FIN. 
+2017-06-23 22:48:31.4093|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4855" sent FIN with status "0". 
+2017-06-23 22:48:31.4203|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4855" stopped. 
+2017-06-23 22:48:33.2933|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4856" started. 
+2017-06-23 22:48:33.6253|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/   
+2017-06-23 22:48:34.4614|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:34.5094|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-23 22:48:34.5804|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4856" completed keep alive response. 
+2017-06-23 22:48:34.6284|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1033.1986ms 404  
+2017-06-23 22:48:34.7720|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/favicon.ico   
+2017-06-23 22:48:34.8105|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:34.8195|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-23 22:48:34.8540|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4856" completed keep alive response. 
+2017-06-23 22:48:34.8540|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 140.7059ms 404  
+2017-06-23 22:48:36.5788|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4856" received FIN. 
+2017-06-23 22:48:36.6438|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4856" disconnecting. 
+2017-06-23 22:48:36.6838|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4856" sending FIN. 
+2017-06-23 22:48:36.6838|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4856" sent FIN with status "0". 
+2017-06-23 22:48:36.6838|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4856" stopped. 
+2017-06-23 22:48:40.4579|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4857" started. 
+2017-06-23 22:48:40.4654|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4858" started. 
+2017-06-23 22:48:40.4654|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4859" started. 
+2017-06-23 22:48:40.4799|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/   
+2017-06-23 22:48:40.4799|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485A" started. 
+2017-06-23 22:48:40.4949|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:40.4949|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485B" started. 
+2017-06-23 22:48:40.5239|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485C" started. 
+2017-06-23 22:48:40.5814|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/index.html'. Physical path: 'N/A' 
+2017-06-23 22:48:40.7029|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4857" completed keep alive response. 
+2017-06-23 22:48:40.7029|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/css/reset.css   
+2017-06-23 22:48:40.7189|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 243.571ms 200 text/html 
+2017-06-23 22:48:40.7249|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:40.7249|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/css/screen.css   
+2017-06-23 22:48:40.7419|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/object-assign-pollyfill.js   
+2017-06-23 22:48:40.7419|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/css/typography.css   
+2017-06-23 22:48:40.7559|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:40.7559|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/jquery-1.8.0.min.js   
+2017-06-23 22:48:40.7559|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/reset.css was not modified 
+2017-06-23 22:48:40.7559|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/screen.css was not modified 
+2017-06-23 22:48:40.7750|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:40.7750|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:40.8060|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:40.7950|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/screen.css 
+2017-06-23 22:48:40.8060|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/object-assign-pollyfill.js was not modified 
+2017-06-23 22:48:40.8060|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/reset.css 
+2017-06-23 22:48:40.8260|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/typography.css was not modified 
+2017-06-23 22:48:40.8260|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/object-assign-pollyfill.js 
+2017-06-23 22:48:40.8360|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jquery-1.8.0.min.js was not modified 
+2017-06-23 22:48:40.8360|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/typography.css 
+2017-06-23 22:48:40.8495|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485A" completed keep alive response. 
+2017-06-23 22:48:40.8495|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4859" completed keep alive response. 
+2017-06-23 22:48:40.8495|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4858" completed keep alive response. 
+2017-06-23 22:48:40.8680|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 131.9358ms 304 application/javascript 
+2017-06-23 22:48:40.8680|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 162.7612ms 304 text/css 
+2017-06-23 22:48:40.8680|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 158.2749ms 304 text/css 
+2017-06-23 22:48:40.9210|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jquery-1.8.0.min.js 
+2017-06-23 22:48:40.9210|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4857" completed keep alive response. 
+2017-06-23 22:48:40.9330|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/handlebars-4.0.5.js   
+2017-06-23 22:48:40.9460|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/jquery.ba-bbq.min.js   
+2017-06-23 22:48:40.9460|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/jquery.wiggle.min.js   
+2017-06-23 22:48:40.9690|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:40.9840|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:40.9920|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:40.9920|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 188.416ms 304 text/css 
+2017-06-23 22:48:41.0320|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485B" completed keep alive response. 
+2017-06-23 22:48:41.0440|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jquery.ba-bbq.min.js was not modified 
+2017-06-23 22:48:41.0440|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/handlebars-4.0.5.js was not modified 
+2017-06-23 22:48:41.0545|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jquery.wiggle.min.js was not modified 
+2017-06-23 22:48:41.0770|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/handlebars-4.0.5.js 
+2017-06-23 22:48:41.1150|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jquery.ba-bbq.min.js 
+2017-06-23 22:48:41.1210|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485A" completed keep alive response. 
+2017-06-23 22:48:41.1320|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jquery.wiggle.min.js 
+2017-06-23 22:48:41.1490|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 200.9942ms 304 application/javascript 
+2017-06-23 22:48:41.1830|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 343.7351ms 304 application/javascript 
+2017-06-23 22:48:41.1990|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/swagger-ui.min.js   
+2017-06-23 22:48:41.1990|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4858" completed keep alive response. 
+2017-06-23 22:48:41.2150|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/lodash.min.js   
+2017-06-23 22:48:41.2435|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:41.2680|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4859" completed keep alive response. 
+2017-06-23 22:48:41.2920|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /swagger-ui.min.js was not modified 
+2017-06-23 22:48:41.2920|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 327.0455ms 304 application/javascript 
+2017-06-23 22:48:41.3151|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /swagger-ui.min.js 
+2017-06-23 22:48:41.3411|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 359.2564ms 304 application/javascript 
+2017-06-23 22:48:41.3536|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485A" completed keep alive response. 
+2017-06-23 22:48:41.3816|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:41.3816|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 168.1231ms 304 application/javascript 
+2017-06-23 22:48:41.4081|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/highlight.9.1.0.pack.js   
+2017-06-23 22:48:41.4901|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/jsoneditor.min.js   
+2017-06-23 22:48:41.5211|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/backbone-min.js   
+2017-06-23 22:48:41.5421|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:41.5546|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:41.5361|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/lodash.min.js was not modified 
+2017-06-23 22:48:41.5766|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jsoneditor.min.js was not modified 
+2017-06-23 22:48:41.5926|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/highlight.9.1.0.pack_extended.js   
+2017-06-23 22:48:41.6426|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:41.6871|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jsoneditor.min.js 
+2017-06-23 22:48:41.7386|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/highlight.9.1.0.pack.js was not modified 
+2017-06-23 22:48:41.7511|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/highlight.9.1.0.pack.js 
+2017-06-23 22:48:41.7711|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:41.7911|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485A" completed keep alive response. 
+2017-06-23 22:48:41.7806|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/lodash.min.js 
+2017-06-23 22:48:41.8206|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 369.6375ms 304 application/javascript 
+2017-06-23 22:48:41.7911|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/highlight.9.1.0.pack_extended.js was not modified 
+2017-06-23 22:48:41.8566|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4858" completed keep alive response. 
+2017-06-23 22:48:41.9189|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/highlight.9.1.0.pack_extended.js 
+2017-06-23 22:48:41.9834|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 482.4525ms 304 application/javascript 
+2017-06-23 22:48:42.0079|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/marked.js   
+2017-06-23 22:48:42.0079|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/backbone-min.js was not modified 
+2017-06-23 22:48:42.0269|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4857" completed keep alive response. 
+2017-06-23 22:48:42.0269|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4859" completed keep alive response. 
+2017-06-23 22:48:42.0409|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:42.0564|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/swagger-oauth.js   
+2017-06-23 22:48:42.0564|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/marked.js was not modified 
+2017-06-23 22:48:42.0749|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 615.9578ms 304 application/javascript 
+2017-06-23 22:48:42.0749|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 921.8767ms 304 application/javascript 
+2017-06-23 22:48:42.0899|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/marked.js 
+2017-06-23 22:48:42.1174|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:42.1174|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/backbone-min.js 
+2017-06-23 22:48:42.1334|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485B" completed keep alive response. 
+2017-06-23 22:48:42.1334|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485A" completed keep alive response. 
+2017-06-23 22:48:42.1654|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/swagger-oauth.js was not modified 
+2017-06-23 22:48:42.1799|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 808.1679ms 304 application/javascript 
+2017-06-23 22:48:42.1799|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/lib/jquery.slideto.min.js   
+2017-06-23 22:48:42.2009|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 145.831ms 304 application/javascript 
+2017-06-23 22:48:42.2089|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/swagger-oauth.js 
+2017-06-23 22:48:42.2249|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4858" completed keep alive response. 
+2017-06-23 22:48:42.2249|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:42.2249|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 184.7196ms 304 application/javascript 
+2017-06-23 22:48:42.2624|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/jquery.slideto.min.js was not modified 
+2017-06-23 22:48:42.2624|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/logo_small.png   
+2017-06-23 22:48:42.2744|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/jquery.slideto.min.js 
+2017-06-23 22:48:42.2744|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:42.2744|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485C" completed keep alive response. 
+2017-06-23 22:48:42.2919|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/logo_small.png was not modified 
+2017-06-23 22:48:42.2919|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 167.8981ms 304 application/javascript 
+2017-06-23 22:48:42.3059|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/logo_small.png 
+2017-06-23 22:48:42.3059|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4858" completed keep alive response. 
+2017-06-23 22:48:42.3239|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 52.4159ms 304 image/png 
+2017-06-23 22:48:42.3344|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/css/print.css   
+2017-06-23 22:48:42.3344|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:42.3344|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /css/print.css was not modified 
+2017-06-23 22:48:42.3524|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /css/print.css 
+2017-06-23 22:48:42.3524|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4858" completed keep alive response. 
+2017-06-23 22:48:42.3669|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 32.1977ms 304 text/css 
+2017-06-23 22:48:42.8454|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/v1/swagger.json   
+2017-06-23 22:48:42.8974|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:48:42.9279|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:42.9279|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:42.9279|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:48:42.9504|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:48:42.9624|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485C" completed keep alive response. 
+2017-06-23 22:48:42.9624|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 136.3165ms 304 image/png 
+2017-06-23 22:48:43.5815|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4858" completed keep alive response. 
+2017-06-23 22:48:43.6125|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 829.7856ms 200 application/json 
+2017-06-23 22:48:46.6000|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4857" received FIN. 
+2017-06-23 22:48:46.6000|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485A" received FIN. 
+2017-06-23 22:48:46.6000|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4859" received FIN. 
+2017-06-23 22:48:46.6260|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485A" disconnecting. 
+2017-06-23 22:48:46.6340|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485B" received FIN. 
+2017-06-23 22:48:46.6000|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4857" disconnecting. 
+2017-06-23 22:48:46.6340|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485C" received FIN. 
+2017-06-23 22:48:46.6560|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4859" disconnecting. 
+2017-06-23 22:48:46.6675|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4857" sending FIN. 
+2017-06-23 22:48:46.6675|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4858" received FIN. 
+2017-06-23 22:48:46.6801|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485B" disconnecting. 
+2017-06-23 22:48:46.7071|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485A" sending FIN. 
+2017-06-23 22:48:46.7120|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485C" disconnecting. 
+2017-06-23 22:48:46.7120|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4858" disconnecting. 
+2017-06-23 22:48:46.7341|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4859" sending FIN. 
+2017-06-23 22:48:46.7440|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485B" sending FIN. 
+2017-06-23 22:48:46.7440|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485A" sent FIN with status "0". 
+2017-06-23 22:48:46.7781|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485B" sent FIN with status "0". 
+2017-06-23 22:48:46.7781|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485A" stopped. 
+2017-06-23 22:48:46.7891|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485B" stopped. 
+2017-06-23 22:48:46.7891|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485C" sending FIN. 
+2017-06-23 22:48:46.7891|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4859" sent FIN with status "0". 
+2017-06-23 22:48:46.8081|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4858" sending FIN. 
+2017-06-23 22:48:46.8081|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4859" stopped. 
+2017-06-23 22:48:46.8191|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4858" sent FIN with status "0". 
+2017-06-23 22:48:46.8191|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4857" sent FIN with status "0". 
+2017-06-23 22:48:46.8191|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4858" stopped. 
+2017-06-23 22:48:46.8411|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N4857" stopped. 
+2017-06-23 22:48:46.8411|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485C" sent FIN with status "0". 
+2017-06-23 22:48:46.8531|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485C" stopped. 
+2017-06-23 22:48:48.2043|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485D" started. 
+2017-06-23 22:48:48.2533|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/throbber.gif   
+2017-06-23 22:48:48.2583|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:48.2583|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/throbber.gif was not modified 
+2017-06-23 22:48:48.2583|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/throbber.gif 
+2017-06-23 22:48:48.2763|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485D" completed keep alive response. 
+2017-06-23 22:48:48.2763|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 28.806ms 304 image/gif 
+2017-06-23 22:48:50.6582|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:48:50.6657|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:50.6822|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:48:50.6822|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:48:50.7012|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485D" completed keep alive response. 
+2017-06-23 22:48:50.7172|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 52.4791ms 304 image/png 
+2017-06-23 22:48:52.8208|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/swagger/images/favicon-16x16.png   
+2017-06-23 22:48:52.8208|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 22:48:52.8368|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-23 22:48:52.8368|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-23 22:48:52.8368|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485D" completed keep alive response. 
+2017-06-23 22:48:52.8528|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 43.5353ms 304 image/png 
+2017-06-23 22:48:56.5830|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485D" received FIN. 
+2017-06-23 22:48:56.5980|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485D" disconnecting. 
+2017-06-23 22:48:56.6400|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485D" sending FIN. 
+2017-06-23 22:48:56.6660|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485D" sent FIN with status "0". 
+2017-06-23 22:48:56.6970|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485D" stopped. 
