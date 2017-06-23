@@ -58,6 +58,14 @@ namespace BulbsShop
         {
             app.UseDefaultFiles();
             app.UseStaticFiles();
+            app.UseFileServer(new FileServerOptions()
+            {
+                FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(
+                Path.Combine(env.ContentRootPath, "node_modules")
+              ),
+                RequestPath = "/node_modules",
+                EnableDirectoryBrowsing = false
+            });
             loggerFactory.AddNLog();
             app.AddNLogWeb();
             LogManager.Configuration.Variables["configDir"] = Path.Combine(env.ContentRootPath,"logs");
