@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  bulbsshop:
+    image: bulbsshop
+    build:
+      context: ./BulbsShop
+      dockerfile: Dockerfile
