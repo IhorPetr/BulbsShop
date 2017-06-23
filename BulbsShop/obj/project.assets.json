@@ -4224,13 +4224,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
-      },
-      "BulbsShop.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v1.1",
-        "dependencies": {
-          "Microsoft.NETCore.App": "1.1.1"
-        }
       }
     }
   },
@@ -10880,16 +10873,11 @@
         "system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
-    },
-    "BulbsShop.Core/1.0.0": {
-      "type": "project",
-      "path": "../../BulbsShop.Core/BulbsShop.Core.csproj",
-      "msbuildProject": "../../BulbsShop.Core/BulbsShop.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
-      "BulbsShop.Core >= 1.0.0",
+      "D:\\CommercialProject\\BulbsShop.Core\\BulbsShop.Core.csproj",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.0.0",
       "Microsoft.AspNetCore >= 1.1.1",
       "Microsoft.AspNetCore.Mvc >= 1.1.3",

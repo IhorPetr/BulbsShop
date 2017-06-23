@@ -803,3 +803,313 @@
 2017-06-23 22:48:56.6400|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485D" sending FIN. 
 2017-06-23 22:48:56.6660|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485D" sent FIN with status "0". 
 2017-06-23 22:48:56.6970|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QE39N485D" stopped. 
+2017-06-23 23:58:26.6932|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-23 23:58:27.1673|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-23 23:58:27.2763|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAC6VTEV" started. 
+2017-06-23 23:58:27.2763|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAC6VTEU" started. 
+2017-06-23 23:58:27.5123|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:53617/  0 
+2017-06-23 23:58:27.5123|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/   
+2017-06-23 23:58:27.8605|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAC6VTEU" completed keep alive response. 
+2017-06-23 23:58:27.9055|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 419.096ms 200  
+2017-06-23 23:58:28.1456|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 23:58:28.2016|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-23 23:58:28.2156|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAC6VTEV" completed keep alive response. 
+2017-06-23 23:58:28.2426|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 772.8858ms 404  
+2017-06-23 23:58:28.2426|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/favicon.ico   
+2017-06-23 23:58:28.2801|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 23:58:28.2801|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-23 23:58:28.2916|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAC6VTEU" completed keep alive response. 
+2017-06-23 23:58:28.2916|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 47.0581ms 404  
+2017-06-23 23:58:56.8799|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-23 23:58:57.2660|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-23 23:58:57.5160|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAL7B431" started. 
+2017-06-23 23:58:57.5540|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAL7B432" started. 
+2017-06-23 23:58:57.8330|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/   
+2017-06-23 23:58:57.8375|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:53617/  0 
+2017-06-23 23:58:58.1651|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAL7B431" completed keep alive response. 
+2017-06-23 23:58:58.2261|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 420.1707ms 200  
+2017-06-23 23:58:58.5706|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 23:58:58.6481|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-23 23:58:58.7226|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAL7B432" completed keep alive response. 
+2017-06-23 23:58:58.7326|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/favicon.ico   
+2017-06-23 23:58:58.7326|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 980.0269ms 404  
+2017-06-23 23:58:58.7471|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 23:58:58.7586|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-23 23:58:58.7586|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAL7B431" completed keep alive response. 
+2017-06-23 23:58:58.7586|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 55.8709ms 404  
+2017-06-23 23:59:28.7632|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-23 23:59:29.1858|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-23 23:59:29.3443|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAUMUAPK" started. 
+2017-06-23 23:59:29.3443|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAUMUAPJ" started. 
+2017-06-23 23:59:29.6334|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:53617/  0 
+2017-06-23 23:59:29.6334|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/   
+2017-06-23 23:59:30.0179|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAUMUAPJ" completed keep alive response. 
+2017-06-23 23:59:30.0424|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 451.0782ms 200  
+2017-06-23 23:59:30.3704|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 23:59:30.4279|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-23 23:59:30.4279|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAUMUAPK" completed keep alive response. 
+2017-06-23 23:59:30.4525|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 871.3077ms 404  
+2017-06-23 23:59:30.4785|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/favicon.ico   
+2017-06-23 23:59:30.4785|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 23:59:30.4935|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-23 23:59:30.4935|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFAUMUAPJ" completed keep alive response. 
+2017-06-23 23:59:30.5225|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 31.0265ms 404  
+2017-06-24 00:00:34.2838|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-24 00:00:34.9268|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-24 00:00:35.0448|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFBI8VJ2E" started. 
+2017-06-24 00:00:35.0703|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFBI8VJ2D" started. 
+2017-06-24 00:00:35.3883|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/   
+2017-06-24 00:00:35.3883|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:53617/  0 
+2017-06-24 00:00:35.9093|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFBI8VJ2E" completed keep alive response. 
+2017-06-24 00:00:35.9528|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 621.3296ms 200  
+2017-06-24 00:00:36.2983|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:00:36.3798|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-24 00:00:36.4018|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFBI8VJ2D" completed keep alive response. 
+2017-06-24 00:00:36.4213|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1107.9252ms 404  
+2017-06-24 00:00:36.6433|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/favicon.ico   
+2017-06-24 00:00:36.6523|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:00:36.6523|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-24 00:00:36.6703|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFBI8VJ2E" completed keep alive response. 
+2017-06-24 00:00:36.6798|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 37.753ms 404  
+2017-06-24 00:01:56.4644|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-24 00:01:57.0185|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-24 00:01:57.1785|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFCAOO2CJ" started. 
+2017-06-24 00:01:57.2265|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFCAOO2CK" started. 
+2017-06-24 00:01:57.5670|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/   
+2017-06-24 00:01:57.5845|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:53617/  0 
+2017-06-24 00:01:58.2860|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFCAOO2CK" completed keep alive response. 
+2017-06-24 00:01:58.3140|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 819.7801ms 200  
+2017-06-24 00:01:58.6285|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:01:58.7015|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-24 00:01:58.7305|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFCAOO2CJ" completed keep alive response. 
+2017-06-24 00:01:58.7735|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/favicon.ico   
+2017-06-24 00:01:58.7735|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1300.3656ms 404  
+2017-06-24 00:01:58.7735|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:01:58.8065|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-24 00:01:58.8485|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFCAOO2CK" completed keep alive response. 
+2017-06-24 00:01:58.8950|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 87.1963ms 404  
+2017-06-24 00:02:31.5556|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-24 00:02:31.9061|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-24 00:02:32.1052|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFCL5Q7P0" started. 
+2017-06-24 00:02:32.1262|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFCL5Q7OV" started. 
+2017-06-24 00:02:32.4062|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/   
+2017-06-24 00:02:32.4162|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:53617/  0 
+2017-06-24 00:02:32.6693|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-06-24 00:02:32.6823|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFCL5Q7OV" completed keep alive response. 
+2017-06-24 00:02:32.7103|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 347.0157ms 200  
+2017-06-24 00:02:33.2323|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:02:33.2608|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-24 00:02:33.3033|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFCL5Q7P0" completed keep alive response. 
+2017-06-24 00:02:33.3033|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/favicon.ico   
+2017-06-24 00:02:33.3033|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 973.2552ms 404  
+2017-06-24 00:02:33.3303|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /favicon.ico does not match an existing file 
+2017-06-24 00:02:33.3373|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:02:33.3373|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-24 00:02:33.3523|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFCL5Q7OV" completed keep alive response. 
+2017-06-24 00:02:33.3523|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 48.0442ms 404  
+2017-06-24 00:02:39.8016|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/Index   
+2017-06-24 00:02:39.8076|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Index does not match a supported file type 
+2017-06-24 00:02:39.8076|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:02:39.8242|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-24 00:02:39.8657|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFCL5Q7P0" completed keep alive response. 
+2017-06-24 00:02:39.8657|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 69.1905ms 404  
+2017-06-24 00:03:44.7045|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-24 00:03:45.1346|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-24 00:03:45.2151|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GO" started. 
+2017-06-24 00:03:45.2151|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GP" started. 
+2017-06-24 00:03:45.5286|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/   
+2017-06-24 00:03:45.5286|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:53617/  0 
+2017-06-24 00:03:45.8842|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GO" completed keep alive response. 
+2017-06-24 00:03:45.8842|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/index.html'. Physical path: 'D:\CommercialProject\BulbsShop\BulbsShop\wwwroot\index.html' 
+2017-06-24 00:03:45.9077|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 456.0686ms 200  
+2017-06-24 00:03:46.1007|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GP" completed keep alive response. 
+2017-06-24 00:03:46.1209|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/favicon.ico   
+2017-06-24 00:03:46.1489|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 683.7288ms 200 text/html 
+2017-06-24 00:03:46.1959|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /favicon.ico does not match an existing file 
+2017-06-24 00:03:46.6844|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:03:46.7064|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-24 00:03:46.7114|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GO" completed keep alive response. 
+2017-06-24 00:03:46.7114|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 614.4072ms 404  
+2017-06-24 00:04:28.6453|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/api/values   
+2017-06-24 00:04:28.6563|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /api/values does not match a supported file type 
+2017-06-24 00:04:28.6753|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Values'. 
+2017-06-24 00:04:28.7763|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'BulbsShop.Controllers.ValuesController.Post (BulbsShop)' with id 'd09af3d8-fad4-49e9-ad60-8e913252e5b3' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-06-24 00:04:29.3523|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action BulbsShop.Controllers.ValuesController.Get (BulbsShop) 
+2017-06-24 00:04:29.5003|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method BulbsShop.Controllers.ValuesController.Get (BulbsShop) with arguments ((null)) - ModelState is Valid 
+2017-06-24 00:04:29.5083|0|BulbsShop.Controllers.ValuesController|INFO|Index page says hello 
+2017-06-24 00:04:29.5233|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method BulbsShop.Controllers.ValuesController.Get (BulbsShop), returned result Microsoft.AspNetCore.Mvc.JsonResult. 
+2017-06-24 00:04:29.5688|1|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|INFO|Executing JsonResult, writing value System.String[]. 
+2017-06-24 00:04:29.6653|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action BulbsShop.Controllers.ValuesController.Get (BulbsShop) in 285.4839ms 
+2017-06-24 00:04:29.6904|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GP" completed keep alive response. 
+2017-06-24 00:04:29.6984|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1061.7916ms 200 application/json; charset=utf-8 
+2017-06-24 00:04:40.3936|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger   
+2017-06-24 00:04:40.3991|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger does not match a supported file type 
+2017-06-24 00:04:40.3991|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:40.4241|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GO" completed keep alive response. 
+2017-06-24 00:04:40.4391|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/   
+2017-06-24 00:04:40.4441|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 47.992ms 301  
+2017-06-24 00:04:40.4441|4|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/ does not match a supported file type 
+2017-06-24 00:04:40.4591|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:40.4591|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/index.html'. Physical path: 'N/A' 
+2017-06-24 00:04:40.5391|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GP" completed keep alive response. 
+2017-06-24 00:04:40.5606|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GQ" started. 
+2017-06-24 00:04:40.5976|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/lib/jquery-1.8.0.min.js   
+2017-06-24 00:04:40.6161|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 130.3544ms 200 text/html 
+2017-06-24 00:04:40.6316|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/css/typography.css   
+2017-06-24 00:04:40.6836|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/typography.css does not match an existing file 
+2017-06-24 00:04:40.6836|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GR" started. 
+2017-06-24 00:04:40.7011|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GS" started. 
+2017-06-24 00:04:40.7146|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/css/reset.css   
+2017-06-24 00:04:40.7146|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/css/screen.css   
+2017-06-24 00:04:40.7011|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery-1.8.0.min.js does not match an existing file 
+2017-06-24 00:04:40.7301|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/reset.css does not match an existing file 
+2017-06-24 00:04:40.7301|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:40.7406|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/lib/jquery.slideto.min.js   
+2017-06-24 00:04:40.7406|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:40.8056|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/screen.css does not match an existing file 
+2017-06-24 00:04:40.8256|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery.slideto.min.js does not match an existing file 
+2017-06-24 00:04:40.8256|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GT" started. 
+2017-06-24 00:04:40.8366|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:40.7971|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jquery-1.8.0.min.js'. Physical path: 'N/A' 
+2017-06-24 00:04:40.8526|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:40.8781|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:40.9011|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/reset.css'. Physical path: 'N/A' 
+2017-06-24 00:04:40.9271|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A' 
+2017-06-24 00:04:40.9451|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/screen.css'. Physical path: 'N/A' 
+2017-06-24 00:04:40.9451|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/lib/object-assign-pollyfill.js   
+2017-06-24 00:04:40.9726|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/typography.css'. Physical path: 'N/A' 
+2017-06-24 00:04:41.0266|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GS" completed keep alive response. 
+2017-06-24 00:04:41.0371|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GP" completed keep alive response. 
+2017-06-24 00:04:41.0576|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GR" completed keep alive response. 
+2017-06-24 00:04:41.0776|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 337.7903ms 200 text/css 
+2017-06-24 00:04:41.0986|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 369.5003ms 200 application/javascript 
+2017-06-24 00:04:41.1096|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/object-assign-pollyfill.js does not match an existing file 
+2017-06-24 00:04:41.1191|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GQ" completed keep alive response. 
+2017-06-24 00:04:41.1191|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 399.3811ms 200 text/css 
+2017-06-24 00:04:41.1421|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/lib/handlebars-4.0.5.js   
+2017-06-24 00:04:41.1516|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/lib/jquery.ba-bbq.min.js   
+2017-06-24 00:04:41.1516|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:41.1716|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 527.4358ms 200 text/css 
+2017-06-24 00:04:41.1901|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/handlebars-4.0.5.js does not match an existing file 
+2017-06-24 00:04:41.2101|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery.ba-bbq.min.js does not match an existing file 
+2017-06-24 00:04:41.2101|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/lib/jquery.wiggle.min.js   
+2017-06-24 00:04:41.2291|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A' 
+2017-06-24 00:04:41.2291|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:41.2591|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GT" completed keep alive response. 
+2017-06-24 00:04:41.2591|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/handlebars-4.0.5.js'. Physical path: 'N/A' 
+2017-06-24 00:04:41.2751|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/lib/lodash.min.js   
+2017-06-24 00:04:41.2751|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:41.2971|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/lodash.min.js does not match an existing file 
+2017-06-24 00:04:41.2971|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery.wiggle.min.js does not match an existing file 
+2017-06-24 00:04:41.3221|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:41.3376|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jquery.ba-bbq.min.js'. Physical path: 'N/A' 
+2017-06-24 00:04:41.3536|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 388.4483ms 200 application/javascript 
+2017-06-24 00:04:41.3706|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GO" completed keep alive response. 
+2017-06-24 00:04:41.3916|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:41.4431|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jquery.wiggle.min.js'. Physical path: 'N/A' 
+2017-06-24 00:04:41.4751|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 842.5103ms 200 application/javascript 
+2017-06-24 00:04:41.4996|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GR" completed keep alive response. 
+2017-06-24 00:04:41.5086|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/lodash.min.js'. Physical path: 'N/A' 
+2017-06-24 00:04:41.5086|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 368.6924ms 200 application/javascript 
+2017-06-24 00:04:41.5621|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GP" completed keep alive response. 
+2017-06-24 00:04:41.5911|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 397.1844ms 200 application/javascript 
+2017-06-24 00:04:41.6251|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/lib/backbone-min.js   
+2017-06-24 00:04:41.6331|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GQ" completed keep alive response. 
+2017-06-24 00:04:41.6331|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/swagger-ui.min.js   
+2017-06-24 00:04:41.6521|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/lib/highlight.9.1.0.pack.js   
+2017-06-24 00:04:41.6521|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 453.1206ms 200 application/javascript 
+2017-06-24 00:04:41.6651|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/highlight.9.1.0.pack.js does not match an existing file 
+2017-06-24 00:04:41.6651|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/backbone-min.js does not match an existing file 
+2017-06-24 00:04:41.6781|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:41.6781|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/swagger-ui.min.js does not match an existing file 
+2017-06-24 00:04:41.7321|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/lib/highlight.9.1.0.pack_extended.js   
+2017-06-24 00:04:41.7896|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/highlight.9.1.0.pack.js'. Physical path: 'N/A' 
+2017-06-24 00:04:41.8076|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/highlight.9.1.0.pack_extended.js does not match an existing file 
+2017-06-24 00:04:41.8591|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:41.8776|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:41.9041|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GR" completed keep alive response. 
+2017-06-24 00:04:41.9041|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:41.9561|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/lib/jsoneditor.min.js   
+2017-06-24 00:04:41.9691|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/backbone-min.js'. Physical path: 'N/A' 
+2017-06-24 00:04:41.9896|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/swagger-ui.min.js'. Physical path: 'N/A' 
+2017-06-24 00:04:42.0831|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 277.7631ms 200 application/javascript 
+2017-06-24 00:04:42.1571|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A' 
+2017-06-24 00:04:42.2566|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GT" completed keep alive response. 
+2017-06-24 00:04:42.2901|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jsoneditor.min.js does not match an existing file 
+2017-06-24 00:04:42.3946|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GS" completed keep alive response. 
+2017-06-24 00:04:42.4691|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/lib/marked.js   
+2017-06-24 00:04:42.5061|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GP" completed keep alive response. 
+2017-06-24 00:04:42.5561|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 744.4501ms 200 application/javascript 
+2017-06-24 00:04:42.5561|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:42.5791|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/marked.js does not match an existing file 
+2017-06-24 00:04:42.5791|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1327.1629ms 200 application/javascript 
+2017-06-24 00:04:42.6226|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 909.2878ms 200 application/javascript 
+2017-06-24 00:04:42.6561|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:42.7001|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jsoneditor.min.js'. Physical path: 'N/A' 
+2017-06-24 00:04:42.7821|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/marked.js'. Physical path: 'N/A' 
+2017-06-24 00:04:42.8411|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/lib/swagger-oauth.js   
+2017-06-24 00:04:43.0366|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GR" completed keep alive response. 
+2017-06-24 00:04:43.1496|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GO" completed keep alive response. 
+2017-06-24 00:04:43.1956|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GQ" completed keep alive response. 
+2017-06-24 00:04:43.2391|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1362.4832ms 200 application/javascript 
+2017-06-24 00:04:43.2441|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/swagger-oauth.js does not match an existing file 
+2017-06-24 00:04:43.2626|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 711.8397ms 200 application/javascript 
+2017-06-24 00:04:43.3051|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1563.4039ms 200 application/javascript 
+2017-06-24 00:04:43.3221|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/images/logo_small.png   
+2017-06-24 00:04:43.3406|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:43.3671|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/logo_small.png does not match an existing file 
+2017-06-24 00:04:43.3872|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/swagger-oauth.js'. Physical path: 'N/A' 
+2017-06-24 00:04:43.4341|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:43.6171|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GT" completed keep alive response. 
+2017-06-24 00:04:43.7516|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/logo_small.png'. Physical path: 'N/A' 
+2017-06-24 00:04:43.7721|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/css/print.css   
+2017-06-24 00:04:43.8401|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GS" completed keep alive response. 
+2017-06-24 00:04:43.8826|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/print.css does not match an existing file 
+2017-06-24 00:04:43.9336|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/v1/swagger.json   
+2017-06-24 00:04:43.9791|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 997.8422ms 200 application/javascript 
+2017-06-24 00:04:43.9951|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 563.3477ms 200 image/png 
+2017-06-24 00:04:44.0226|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:44.0626|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/print.css'. Physical path: 'N/A' 
+2017-06-24 00:04:44.0626|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/v1/swagger.json does not match an existing file 
+2017-06-24 00:04:44.0771|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GP" completed keep alive response. 
+2017-06-24 00:04:44.1011|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:44.1216|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 541.8643ms 200 text/css 
+2017-06-24 00:04:44.1386|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/images/favicon-16x16.png   
+2017-06-24 00:04:44.1521|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/favicon-16x16.png does not match an existing file 
+2017-06-24 00:04:44.1681|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:44.2066|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/favicon-16x16.png'. Physical path: 'N/A' 
+2017-06-24 00:04:44.3031|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GR" completed keep alive response. 
+2017-06-24 00:04:44.3221|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/images/favicon-32x32.png   
+2017-06-24 00:04:44.3221|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 197.0149ms 200 image/png 
+2017-06-24 00:04:44.3391|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/favicon-32x32.png does not match an existing file 
+2017-06-24 00:04:44.3591|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:44.3931|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/favicon-32x32.png'. Physical path: 'N/A' 
+2017-06-24 00:04:44.4136|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GO" completed keep alive response. 
+2017-06-24 00:04:44.4666|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 166.9387ms 200 image/png 
+2017-06-24 00:04:44.8696|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GQ" completed keep alive response. 
+2017-06-24 00:04:44.9241|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1188.1421ms 200 application/json 
+2017-06-24 00:04:47.5395|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/images/throbber.gif   
+2017-06-24 00:04:47.5615|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/throbber.gif does not match an existing file 
+2017-06-24 00:04:47.5805|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:47.6090|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/throbber.gif'. Physical path: 'N/A' 
+2017-06-24 00:04:47.6560|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GT" completed keep alive response. 
+2017-06-24 00:04:47.7235|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 151.1925ms 200 image/gif 
+2017-06-24 00:04:49.5147|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/images/favicon-16x16.png   
+2017-06-24 00:04:49.5247|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/favicon-16x16.png does not match an existing file 
+2017-06-24 00:04:49.5247|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:49.5442|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-24 00:04:49.5572|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-24 00:04:49.5572|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GS" completed keep alive response. 
+2017-06-24 00:04:49.5772|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 57.6863ms 304 image/png 
+2017-06-24 00:04:50.7874|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/swagger/images/favicon-16x16.png   
+2017-06-24 00:04:50.7874|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/favicon-16x16.png does not match an existing file 
+2017-06-24 00:04:50.7874|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 00:04:50.8084|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /images/favicon-16x16.png was not modified 
+2017-06-24 00:04:50.8084|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /images/favicon-16x16.png 
+2017-06-24 00:04:50.8274|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GP" completed keep alive response. 
+2017-06-24 00:04:50.8274|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 45.4763ms 304 image/png 
+2017-06-24 00:05:00.0328|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/   
+2017-06-24 00:05:00.0378|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /index.html was not modified 
+2017-06-24 00:05:00.0378|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /index.html 
+2017-06-24 00:05:00.1203|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QFDAV22GR" completed keep alive response. 
+2017-06-24 00:05:00.1203|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 94.4619ms 304 text/html 
