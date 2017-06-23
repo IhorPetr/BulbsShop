@@ -7,3 +7,4 @@ D:\CommercialProject\BulbsShop\BulbsShop\obj\Debug\netcoreapp1.1\BulbsShop.Assem
 D:\CommercialProject\BulbsShop\BulbsShop\obj\Debug\netcoreapp1.1\BulbsShop.dll
 D:\CommercialProject\BulbsShop\BulbsShop\obj\Debug\netcoreapp1.1\BulbsShop.pdb
 D:\CommercialProject\BulbsShop\BulbsShop\obj\Debug\netcoreapp1.1\BulbsShop.csprojResolveAssemblyReference.cache
+D:\CommercialProject\BulbsShop\BulbsShop\bin\Debug\netcoreapp1.1\nlog.config

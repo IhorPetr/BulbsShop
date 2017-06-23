@@ -1,0 +1,112 @@
+2017-06-23 19:37:15.5650|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-23 19:37:15.9151|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-23 19:37:16.3122|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9S" started. 
+2017-06-23 19:37:16.3822|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9S" received FIN. 
+2017-06-23 19:37:16.4152|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9T" started. 
+2017-06-23 19:37:16.4152|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9T" received FIN. 
+2017-06-23 19:37:16.4677|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9S" disconnecting. 
+2017-06-23 19:37:16.4677|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9T" disconnecting. 
+2017-06-23 19:37:16.4887|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9S" sending FIN. 
+2017-06-23 19:37:16.4957|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9T" sending FIN. 
+2017-06-23 19:37:16.5102|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9T" sent FIN with status "0". 
+2017-06-23 19:37:16.5102|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9T" stopped. 
+2017-06-23 19:37:16.5297|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9S" sent FIN with status "0". 
+2017-06-23 19:37:16.5432|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9S" stopped. 
+2017-06-23 19:37:18.4392|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9U" started. 
+2017-06-23 19:37:18.7322|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/   
+2017-06-23 19:37:19.4752|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 19:37:19.6727|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9U" completed keep alive response. 
+2017-06-23 19:37:19.7177|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1068.0612ms 404  
+2017-06-23 19:37:19.7727|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/favicon.ico   
+2017-06-23 19:37:19.7727|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 19:37:19.7727|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9U" completed keep alive response. 
+2017-06-23 19:37:19.7907|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 17.8477ms 404  
+2017-06-23 19:37:21.6350|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9U" received FIN. 
+2017-06-23 19:37:21.6350|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9U" disconnecting. 
+2017-06-23 19:37:21.6350|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9U" sending FIN. 
+2017-06-23 19:37:21.6490|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9U" sent FIN with status "0". 
+2017-06-23 19:37:21.6490|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9U" stopped. 
+2017-06-23 19:37:25.0089|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9V" started. 
+2017-06-23 19:37:25.0089|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGIA0" started. 
+2017-06-23 19:37:25.0089|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/api/values   
+2017-06-23 19:37:25.0284|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGIA1" started. 
+2017-06-23 19:37:25.0574|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Values'. 
+2017-06-23 19:37:25.1644|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'BulbsShop.Controllers.ValuesController.Post (BulbsShop)' with id 'a0a07322-a989-4e1f-9d5d-4fbfc12f0efc' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-06-23 19:37:25.3295|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action BulbsShop.Controllers.ValuesController.Get (BulbsShop) 
+2017-06-23 19:37:25.4355|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method BulbsShop.Controllers.ValuesController.Get (BulbsShop) with arguments ((null)) - ModelState is Valid 
+2017-06-23 19:37:25.4355|0|BulbsShop.Controllers.ValuesController|INFO|Index page says hello 
+2017-06-23 19:37:25.4585|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method BulbsShop.Controllers.ValuesController.Get (BulbsShop), returned result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2017-06-23 19:37:25.5095|4|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2017-06-23 19:37:25.5095|2|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response. 
+2017-06-23 19:37:25.5235|1|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-06-23 19:37:25.9835|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action BulbsShop.Controllers.ValuesController.Get (BulbsShop) in 596.6999ms 
+2017-06-23 19:37:26.0515|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9V" completed keep alive response. 
+2017-06-23 19:37:26.0670|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1044.1376ms 200 application/json; charset=utf-8 
+2017-06-23 19:37:28.1291|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGIA0" received FIN. 
+2017-06-23 19:37:28.1571|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGIA1" received FIN. 
+2017-06-23 19:37:28.1691|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGIA0" disconnecting. 
+2017-06-23 19:37:28.2031|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9V" received FIN. 
+2017-06-23 19:37:28.2161|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGIA1" disconnecting. 
+2017-06-23 19:37:28.2546|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9V" disconnecting. 
+2017-06-23 19:37:28.2626|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGIA1" sending FIN. 
+2017-06-23 19:37:28.2881|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGIA0" sending FIN. 
+2017-06-23 19:37:28.2881|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9V" sending FIN. 
+2017-06-23 19:37:28.3111|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGIA0" sent FIN with status "0". 
+2017-06-23 19:37:28.3186|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9V" sent FIN with status "0". 
+2017-06-23 19:37:28.3186|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGIA0" stopped. 
+2017-06-23 19:37:28.3481|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGI9V" stopped. 
+2017-06-23 19:37:28.3626|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGIA1" sent FIN with status "0". 
+2017-06-23 19:37:28.3766|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAODSGIA1" stopped. 
+2017-06-23 19:38:10.2349|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-23 19:38:10.7269|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-23 19:38:10.8469|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDI" started. 
+2017-06-23 19:38:10.9030|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDI" received FIN. 
+2017-06-23 19:38:10.9260|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDI" disconnecting. 
+2017-06-23 19:38:10.9440|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDI" sending FIN. 
+2017-06-23 19:38:10.9600|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDI" sent FIN with status "0". 
+2017-06-23 19:38:10.9600|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDI" stopped. 
+2017-06-23 19:38:12.6121|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDJ" started. 
+2017-06-23 19:38:13.0386|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/   
+2017-06-23 19:38:13.8261|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 19:38:13.9951|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDJ" completed keep alive response. 
+2017-06-23 19:38:14.0231|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1039.6595ms 404  
+2017-06-23 19:38:14.1232|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/favicon.ico   
+2017-06-23 19:38:14.1772|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-23 19:38:14.1862|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDJ" completed keep alive response. 
+2017-06-23 19:38:14.1862|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 71.8027ms 404  
+2017-06-23 19:38:16.1468|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDJ" received FIN. 
+2017-06-23 19:38:16.1468|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDJ" disconnecting. 
+2017-06-23 19:38:16.1468|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDJ" sending FIN. 
+2017-06-23 19:38:16.1468|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDJ" sent FIN with status "0". 
+2017-06-23 19:38:16.1628|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDJ" stopped. 
+2017-06-23 19:38:18.3138|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDK" started. 
+2017-06-23 19:38:18.3138|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDL" started. 
+2017-06-23 19:38:18.3333|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53618/api/values   
+2017-06-23 19:38:18.3453|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDM" started. 
+2017-06-23 19:38:18.3743|1|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '(null)' and template 'api/Values'. 
+2017-06-23 19:38:18.4493|2|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|DEBUG|Action 'BulbsShop.Controllers.ValuesController.Post (BulbsShop)' with id '62fe0fba-3fb9-42a5-b08e-5a1ff88df9a3' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint' 
+2017-06-23 19:38:18.6623|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action BulbsShop.Controllers.ValuesController.Get (BulbsShop) 
+2017-06-23 19:38:18.7693|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method BulbsShop.Controllers.ValuesController.Get (BulbsShop) with arguments ((null)) - ModelState is Valid 
+2017-06-23 19:38:18.7738|0|BulbsShop.Controllers.ValuesController|INFO|Index page says hello 
+2017-06-23 19:38:18.7738|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method BulbsShop.Controllers.ValuesController.Get (BulbsShop), returned result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2017-06-23 19:38:18.8464|4|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|No information found on request to perform content negotiation. 
+2017-06-23 19:38:18.8574|2|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|DEBUG|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response. 
+2017-06-23 19:38:18.8574|1|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-06-23 19:38:19.2534|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action BulbsShop.Controllers.ValuesController.Get (BulbsShop) in 548.4943ms 
+2017-06-23 19:38:19.2804|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDK" completed keep alive response. 
+2017-06-23 19:38:19.2894|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 965.6961ms 200 application/json; charset=utf-8 
+2017-06-23 19:38:26.1521|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDL" received FIN. 
+2017-06-23 19:38:26.1521|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDM" received FIN. 
+2017-06-23 19:38:26.1756|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDL" disconnecting. 
+2017-06-23 19:38:26.1801|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDM" disconnecting. 
+2017-06-23 19:38:26.1801|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDL" sending FIN. 
+2017-06-23 19:38:26.1801|6|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDK" received FIN. 
+2017-06-23 19:38:26.2041|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDL" sent FIN with status "0". 
+2017-06-23 19:38:26.2161|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDM" sending FIN. 
+2017-06-23 19:38:26.2271|10|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDK" disconnecting. 
+2017-06-23 19:38:26.2271|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDM" sent FIN with status "0". 
+2017-06-23 19:38:26.2451|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDL" stopped. 
+2017-06-23 19:38:26.2451|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDM" stopped. 
+2017-06-23 19:38:26.2591|7|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDK" sending FIN. 
+2017-06-23 19:38:26.2866|8|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDK" sent FIN with status "0". 
+2017-06-23 19:38:26.3111|2|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QAOU59CDK" stopped. 
