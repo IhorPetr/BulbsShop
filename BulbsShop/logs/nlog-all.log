@@ -1151,3 +1151,40 @@
 2017-06-24 01:35:31.3948|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
 2017-06-24 01:35:31.4478|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5QH0J9AVR7" completed keep alive response. 
 2017-06-24 01:35:31.4908|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 805.0118ms 404  
+2017-06-24 18:31:34.0047|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-24 18:31:34.3896|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-24 18:31:34.6877|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5R2OCDG19C" started. 
+2017-06-24 18:31:34.6877|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5R2OCDG19D" started. 
+2017-06-24 18:31:34.9257|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:53617/  0 
+2017-06-24 18:31:34.9257|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/   
+2017-06-24 18:31:35.3070|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/index.html'. Physical path: 'D:\CommercialProject\BulbsShop\BulbsShop\wwwroot\index.html' 
+2017-06-24 18:31:35.3100|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5R2OCDG19D" completed keep alive response. 
+2017-06-24 18:31:35.3499|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 470.7003ms 200  
+2017-06-24 18:31:35.4019|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5R2OCDG19C" completed keep alive response. 
+2017-06-24 18:31:35.4049|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 533.6915ms 200 text/html 
+2017-06-24 18:31:35.5530|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/favicon.ico   
+2017-06-24 18:31:35.5800|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /favicon.ico does not match an existing file 
+2017-06-24 18:31:35.5800|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-24 18:31:36.0011|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 18:31:36.0211|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-24 18:31:36.0291|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5R2OCDG19D" completed keep alive response. 
+2017-06-24 18:31:36.0291|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 494.5163ms 404  
+2017-06-24 18:34:34.7220|3|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-06-24 18:34:35.0341|4|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-06-24 18:34:35.1649|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5R2Q26PIPO" started. 
+2017-06-24 18:34:35.1649|1|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5R2Q26PIPP" started. 
+2017-06-24 18:34:35.3979|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:53617/  0 
+2017-06-24 18:34:35.3979|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/   
+2017-06-24 18:34:35.6600|6|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /index.html was not modified 
+2017-06-24 18:34:35.6600|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5R2Q26PIPP" completed keep alive response. 
+2017-06-24 18:34:35.6950|8|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /index.html 
+2017-06-24 18:34:35.7050|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5R2Q26PIPO" completed keep alive response. 
+2017-06-24 18:34:35.7310|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 379.782ms 304 text/html 
+2017-06-24 18:34:35.7340|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 371.8362ms 200  
+2017-06-24 18:34:35.8055|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:53617/favicon.ico   
+2017-06-24 18:34:35.8130|5|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /favicon.ico does not match an existing file 
+2017-06-24 18:34:35.8130|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-24 18:34:36.1987|1|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-06-24 18:34:36.2122|3|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-06-24 18:34:36.2122|9|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL5R2Q26PIPP" completed keep alive response. 
+2017-06-24 18:34:36.2197|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 414.6848ms 404  

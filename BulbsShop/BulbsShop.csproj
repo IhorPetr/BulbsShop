@@ -24,6 +24,7 @@
   <ItemGroup>
     <Folder Include="logs\" />
     <Folder Include="wwwroot\ app\" />
+    <Folder Include="wwwroot\ app\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
