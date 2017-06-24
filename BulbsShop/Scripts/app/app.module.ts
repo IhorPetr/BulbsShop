@@ -4,12 +4,16 @@ import { HttpModule } from "@angular/http";
 import "rxjs/Rx";
 import { AppComponent } from "./app.component";
 @NgModule({
-    declarations: [
-        AppComponent
+    // directives, components, and pipes
+    declarations: [AppComponent
     ],
+    // modules
     imports: [
         BrowserModule,
         HttpModule
+    ],
+    // providers
+    providers: [
     ],
     bootstrap: [
         AppComponent

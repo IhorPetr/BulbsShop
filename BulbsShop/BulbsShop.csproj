@@ -7,14 +7,26 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TypeScriptTarget>ES6</TypeScriptTarget>  
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>  
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>  
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>  
+    <TypeScriptModuleKind>System</TypeScriptModuleKind>  
+    <TypeScriptRemoveComments>False</TypeScriptRemoveComments>  
+    <TypeScriptOutFile />  
+    <TypeScriptOutDir />  
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>  
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>  
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>  
+    <TypeScriptMapRoot />  
+    <TypeScriptSourceRoot />  
+    <TypeScriptExperimentalDecorators>True</TypeScriptExperimentalDecorators>  
+    <TypeScriptEmitDecoratorMetadata>True</TypeScriptEmitDecoratorMetadata>
     <DocumentationFile>bin\Debug\netcoreapp1.1\BulbsShop.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Scripts\NewFolder\**" />
-    <Content Remove="Scripts\NewFolder\**" />
-    <EmbeddedResource Remove="Scripts\NewFolder\**" />
-    <None Remove="Scripts\NewFolder\**" />
+    <None Remove="Gruntfile.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,8 +35,7 @@
 
   <ItemGroup>
     <Folder Include="logs\" />
-    <Folder Include="wwwroot\ app\" />
-    <Folder Include="wwwroot\ app\" />
+    <Folder Include="wwwroot\app\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
@@ -47,5 +58,4 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
 </Project>
