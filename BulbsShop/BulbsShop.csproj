@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <TypeScriptTarget>ES6</TypeScriptTarget>  
+    <TypeScriptTarget>ES5</TypeScriptTarget>  
     <TypeScriptJSXEmit>None</TypeScriptJSXEmit>  
     <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>  
     <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>  
@@ -26,6 +26,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="typings\**" />
+    <Content Remove="typings\**" />
+    <EmbeddedResource Remove="typings\**" />
+    <None Remove="typings\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Gruntfile.js" />
   </ItemGroup>
 
@@ -35,6 +42,7 @@
 
   <ItemGroup>
     <Folder Include="logs\" />
+    <Folder Include="wwwroot\app\" />
     <Folder Include="wwwroot\app\" />
   </ItemGroup>
   <ItemGroup>
