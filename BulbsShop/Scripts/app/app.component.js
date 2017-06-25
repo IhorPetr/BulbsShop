@@ -23,7 +23,7 @@ System.register(["@angular/core"], function (exports_1, context_1) {
             AppComponent = __decorate([
                 core_1.Component({
                     selector: "opengamelist",
-                    template: "<h1>OpenGameList</h1><div>Work in progress...</div>"
+                    template: "<h1>OpenGameList</h1><div>All be fine</div>"
                 })
             ], AppComponent);
             exports_1("AppComponent", AppComponent);
