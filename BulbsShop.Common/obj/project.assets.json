@@ -7042,10 +7042,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CommercialProject\\BulbsShop\\BulbsShop.Common\\BulbsShop.Common.csproj",
+      "projectUniqueName": "D:\\diplom_bachelar\\Диплом_Бакалавр_Петрухно\\BulbsShop\\BulbsShop.Common\\BulbsShop.Common.csproj",
       "projectName": "BulbsShop.Common",
-      "projectPath": "D:\\CommercialProject\\BulbsShop\\BulbsShop.Common\\BulbsShop.Common.csproj",
-      "outputPath": "D:\\CommercialProject\\BulbsShop\\BulbsShop.Common\\obj\\",
+      "projectPath": "D:\\diplom_bachelar\\Диплом_Бакалавр_Петрухно\\BulbsShop\\BulbsShop.Common\\BulbsShop.Common.csproj",
+      "outputPath": "D:\\diplom_bachelar\\Диплом_Бакалавр_Петрухно\\BulbsShop\\BulbsShop.Common\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

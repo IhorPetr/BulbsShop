@@ -9,3 +9,14 @@ D:\CommercialProject\BulbsShop\BulbsShop\obj\Debug\netcoreapp1.1\BulbsShop.pdb
 D:\CommercialProject\BulbsShop\BulbsShop\bin\Debug\netcoreapp1.1\nlog.config
 D:\CommercialProject\BulbsShop\BulbsShop\bin\Debug\netcoreapp1.1\BulbsShop.xml
 D:\CommercialProject\BulbsShop\BulbsShop\obj\Debug\netcoreapp1.1\BulbsShop.csprojResolveAssemblyReference.cache
+D:\diplom_bachelar\Диплом_Бакалавр_Петрухно\BulbsShop\BulbsShop\bin\Debug\netcoreapp1.1\nlog.config
+D:\diplom_bachelar\Диплом_Бакалавр_Петрухно\BulbsShop\BulbsShop\bin\Debug\netcoreapp1.1\BulbsShop.deps.json
+D:\diplom_bachelar\Диплом_Бакалавр_Петрухно\BulbsShop\BulbsShop\bin\Debug\netcoreapp1.1\BulbsShop.runtimeconfig.json
+D:\diplom_bachelar\Диплом_Бакалавр_Петрухно\BulbsShop\BulbsShop\bin\Debug\netcoreapp1.1\BulbsShop.runtimeconfig.dev.json
+D:\diplom_bachelar\Диплом_Бакалавр_Петрухно\BulbsShop\BulbsShop\bin\Debug\netcoreapp1.1\BulbsShop.xml
+D:\diplom_bachelar\Диплом_Бакалавр_Петрухно\BulbsShop\BulbsShop\bin\Debug\netcoreapp1.1\BulbsShop.dll
+D:\diplom_bachelar\Диплом_Бакалавр_Петрухно\BulbsShop\BulbsShop\bin\Debug\netcoreapp1.1\BulbsShop.pdb
+D:\diplom_bachelar\Диплом_Бакалавр_Петрухно\BulbsShop\BulbsShop\obj\Debug\netcoreapp1.1\BulbsShop.csprojResolveAssemblyReference.cache
+D:\diplom_bachelar\Диплом_Бакалавр_Петрухно\BulbsShop\BulbsShop\obj\Debug\netcoreapp1.1\BulbsShop.AssemblyInfo.cs
+D:\diplom_bachelar\Диплом_Бакалавр_Петрухно\BulbsShop\BulbsShop\obj\Debug\netcoreapp1.1\BulbsShop.dll
+D:\diplom_bachelar\Диплом_Бакалавр_Петрухно\BulbsShop\BulbsShop\obj\Debug\netcoreapp1.1\BulbsShop.pdb
