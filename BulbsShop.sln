@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbsShop", "BulbsShop\BulbsShop.csproj", "{8DB4BBDB-1998-4837-ABCA-DA539419A787}"
-EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{77A6830B-9CD4-4F90-A6D0-08E840701579}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulbsShop.Test", "BulbsShop.Test\BulbsShop.Test.csproj", "{52EC6B98-BA4A-4C98-917D-5BEB474B4782}"
 EndProject
@@ -23,10 +21,6 @@ Global
 		{8DB4BBDB-1998-4837-ABCA-DA539419A787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DB4BBDB-1998-4837-ABCA-DA539419A787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DB4BBDB-1998-4837-ABCA-DA539419A787}.Release|Any CPU.Build.0 = Release|Any CPU
-		{77A6830B-9CD4-4F90-A6D0-08E840701579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77A6830B-9CD4-4F90-A6D0-08E840701579}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77A6830B-9CD4-4F90-A6D0-08E840701579}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77A6830B-9CD4-4F90-A6D0-08E840701579}.Release|Any CPU.Build.0 = Release|Any CPU
 		{52EC6B98-BA4A-4C98-917D-5BEB474B4782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{52EC6B98-BA4A-4C98-917D-5BEB474B4782}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52EC6B98-BA4A-4C98-917D-5BEB474B4782}.Release|Any CPU.ActiveCfg = Release|Any CPU
