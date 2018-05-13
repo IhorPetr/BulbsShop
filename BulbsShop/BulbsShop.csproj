@@ -37,9 +37,9 @@
     <None Remove="Gruntfile.js" />
   </ItemGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <Content Include="wwwroot\Index.html" />
-  </ItemGroup>
+  </ItemGroup>-->
 
   <ItemGroup>
     <Folder Include="logs\" />
